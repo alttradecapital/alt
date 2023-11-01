@@ -41,23 +41,12 @@ first_name: {
     type: String,
     default: ''
   },
-  totalprofit:{
-    type: String,
-    default: "00.00"
-  },
-
-  referacount :{
-    type: Number,
-    default: 1
-  },
+ 
   refaralsbonus:{
     type: String,
     default: '00.00'
   },
-  referalcode:{
-    type: String,
-    required: false
-  },
+
   date: {
     type: Date,
     default: Date.now
