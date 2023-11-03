@@ -46,6 +46,10 @@ first_name: {
     type: String,
     default: '00.00'
   },
+  referalcode:{
+    type: String,
+  },
+
 
   date: {
     type: Date,
