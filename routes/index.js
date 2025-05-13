@@ -178,37 +178,12 @@ router.get('/binance-pay', ensureAuthenticated, (req, res) =>
   })
 );
 
-
-router.get('/doge-pay', ensureAuthenticated, (req, res) =>
-  res.render('doge', {
-    user: req.user
-  })
-);
-
-
-router.get('/ripple-pay', ensureAuthenticated, (req, res) =>
-  res.render('ripplepay', {
-    user: req.user
-  })
-);
-
 router.get('/usdt-pay', ensureAuthenticated, (req, res) =>
   res.render('usdt', {
     user: req.user
   })
 );
-router.get('/busd-pay', ensureAuthenticated, (req, res) =>
-  res.render('busd', {
-    user: req.user
-  })
-);
 
-
-router.get('/tron-pay', ensureAuthenticated, (req, res) =>
-  res.render('tronpay', {
-    user: req.user
-  })
-);
 
 
 module.exports = router;
